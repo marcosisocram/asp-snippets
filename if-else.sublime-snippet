@@ -2,9 +2,9 @@
   <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 if ${1:false} then
-	${2:'body...}
+	${2}
 else
-	${3:'body...}
+	${3}
 end if
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

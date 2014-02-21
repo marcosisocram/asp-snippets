@@ -51,6 +51,31 @@ end if
 set ${1} = ${2}
 ```
 
+### [rw] response.write
+```asp
+response.write ${1}
+```
+
+### [sub] sub
+```asp
+sub ${1}(${2})
+	${3}
+end sub
+```
+
+### [publ] public function
+```asp
+public function ${1}(${2})
+	${3}
+end function
+```
+
+### [func] function
+```asp
+function ${1}(${2})
+	${3}
+end function
+```
 ## Contributing
 
 1. Fork it!

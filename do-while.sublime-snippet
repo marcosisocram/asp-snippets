@@ -2,7 +2,7 @@
   <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 do while ${1:false}
-	${2:'body...}
+	${2}
 loop
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
