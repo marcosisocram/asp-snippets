@@ -1,0 +1,11 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+set ${1} = ${2}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>set</tabTrigger>
+  <description>set</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.asp</scope>
+</snippet>

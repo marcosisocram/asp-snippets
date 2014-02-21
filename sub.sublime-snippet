@@ -1,0 +1,13 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+sub ${1}(${2})
+	${3}
+end sub
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sub</tabTrigger>
+  <description>sub</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.asp, storage.type.asp</scope>
+</snippet>

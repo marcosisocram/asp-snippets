@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+if ${1:false} then
+	${2:'body...}
+end if ]]></content>
+	<tabTrigger>if</tabTrigger>
+	<scope>source.asp</scope>
+</snippet>
