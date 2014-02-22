@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+dim ${1} = ${2}
+]]></content>
+  <tabTrigger>dim</tabTrigger>
+  <description>Dim</description>
+  <scope>source.asp</scope>
+</snippet>
