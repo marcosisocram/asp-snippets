@@ -1,13 +1,10 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 for ${1:i = 0} to ${2}
 	${3}
 next
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>for</tabTrigger>
   <description>for</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>source.asp, storage.type.asp</scope>
 </snippet>
