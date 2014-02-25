@@ -1,0 +1,10 @@
+ASP Snippets 0.1.1
+--------------------
+
+New snippets
+
+ - [rc] response.clear
+ - [re] response.end
+ - [rr] response.redirect
+ - [rqf] request.form
+ - [rqs] request.querystring

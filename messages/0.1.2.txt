@@ -1,0 +1,6 @@
+ASP Snippets 0.1.2
+--------------------
+
+fix response.clear
+	from response.clear "${1}"
+	to response.clear
