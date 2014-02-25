@@ -51,6 +51,12 @@ end if
 set ${1} = ${2}
 ```
 
+### [dim] dim
+
+```asp
+dim ${1} = ${2}
+```
+
 ### [rw] response.write
 ```
 response.write ${1}
