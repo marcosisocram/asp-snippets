@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-response.clear "${1}"
+response.clear
 ]]></content>
   <tabTrigger>rc</tabTrigger>
   <description>response.clear</description>
