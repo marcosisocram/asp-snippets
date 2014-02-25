@@ -11,7 +11,7 @@ If you insist to not install it, you can download the package and put it manuall
 
 ### [if] if
 
-```asp
+```
 if ${1:false} then
 	${2}
 end if
@@ -19,7 +19,7 @@ end if
 
 ### [ife] if else
 
-```asp
+```
 if ${1:false} then
 	${2}
 else
@@ -29,7 +29,7 @@ end if
 
 ### [dow] do while
 
-```asp
+```
 do while ${1:false}
 	${2}
 loop
@@ -37,7 +37,7 @@ loop
 
 ### [ifeif] if elseif
 
-```asp
+```
 if ${1:false} then
 	${2}
 elseif ${3:false} then
@@ -47,31 +47,56 @@ end if
 
 ### [set] set
 
-```asp
+```
 set ${1} = ${2}
 ```
 
 ### [rw] response.write
-```asp
+```
 response.write ${1}
 ```
 
+### [rr] response.redirect
+```
+response.redirect "${1}"
+```
+
+### [rc] response.clear
+```
+response.clear
+```
+
+### [re] response.end
+```
+response.end
+```
+
+### [rqs] request.querystring
+```
+request.querystring("${1}")
+```
+
+### [rqf] request.form
+```
+request.form("${1}")
+```
+
 ### [sub] sub
-```asp
+```
 sub ${1}(${2})
 	${3}
 end sub
 ```
 
 ### [publ] public function
-```asp
+```
 public function ${1}(${2})
 	${3}
 end function
 ```
 
 ### [func] function
-```asp
+```
 function ${1}(${2})
 	${3}
 end function
