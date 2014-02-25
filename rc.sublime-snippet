@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+response.clear "${1}"
+]]></content>
+  <tabTrigger>rc</tabTrigger>
+  <description>response.clear</description>
+  <scope>source.asp</scope>
+</snippet>

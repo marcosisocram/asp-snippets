@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+request.form("${1}")
+]]></content>
+  <tabTrigger>rqf</tabTrigger>
+  <description>request.form</description>
+  <scope>source.asp</scope>
+</snippet>

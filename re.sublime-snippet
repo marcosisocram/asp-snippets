@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+response.end
+]]></content>
+  <tabTrigger>re</tabTrigger>
+  <description>response.end</description>
+  <scope>source.asp</scope>
+</snippet>

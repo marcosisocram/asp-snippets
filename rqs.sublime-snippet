@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+request.querystring("${1}")
+]]></content>
+  <tabTrigger>rqs</tabTrigger>
+  <description>request.querystring</description>
+  <scope>source.asp</scope>
+</snippet>

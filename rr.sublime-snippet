@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+response.redirect "${1}"
+]]></content>
+  <tabTrigger>rr</tabTrigger>
+  <description>response.redirect</description>
+  <scope>source.asp</scope>
+</snippet>
