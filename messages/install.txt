@@ -1,0 +1,12 @@
+ASP Snippets:
+---------------
+
+  Thank you for installing the ASP Snippets.
+
+  Note you may need to restart Sublime Text after installing this snippet.
+
+  If you have any questions, comments, or run into issues, please let me know! Hope you enjoy the snippet.
+
+  For more information please visit https://github.com/marcosisocram/asp-snippets
+
+  Thank you!
