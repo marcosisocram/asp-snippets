@@ -4,7 +4,7 @@ private sub ${1}(${2})
 	${3}
 end sub
 ]]></content>
-  <tabTrigger>pfun</tabTrigger>
+  <tabTrigger>psub</tabTrigger>
   <description>private sub</description>
   <scope>source.asp, storage.modifier.asp</scope>
 </snippet>
