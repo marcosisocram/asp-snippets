@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+class ${1}
+	private sub class_initialize
+		${2}
+	end sub
+	${3}
+end class
+]]></content>
+  <tabTrigger>class</tabTrigger>
+  <description>new class</description>
+  <scope>source.asp, storage.modifier.asp</scope>
+</snippet>

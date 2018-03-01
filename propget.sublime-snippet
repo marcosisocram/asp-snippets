@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+public property get ${1}()
+	${2}
+end property
+]]></content>
+  <tabTrigger>propget</tabTrigger>
+  <description>public property get</description>
+  <scope>source.asp, storage.modifier.asp</scope>
+</snippet>

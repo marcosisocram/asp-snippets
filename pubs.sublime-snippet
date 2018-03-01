@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+public sub ${1}(${2})
+	${3}
+end sub
+]]></content>
+  <tabTrigger>pubs</tabTrigger>
+  <description>public</description>
+  <scope>source.asp, storage.modifier.asp</scope>
+</snippet>
