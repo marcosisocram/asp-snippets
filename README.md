@@ -87,6 +87,51 @@ request.querystring("${1}")
 request.form("${1}")
 ```
 
+### [for] for
+```
+for ${1:i = 0} to ${2}
+	${3}
+next
+```
+
+### [fore] for each
+```
+for each ${1:var} in ${2}
+	${3}
+next
+```
+
+### [class] class
+```
+class ${1}
+	private sub class_initialize
+		${2}
+	end sub
+	${3}
+end class
+```
+
+### [proplet] public property let
+```
+public property let ${1}(${2})
+	${3}
+end property
+```
+
+### [propget] public property get
+```
+public property get ${1}()
+	${2}
+end property
+```
+
+### [propset] public property set
+```
+public property set ${1}(${2})
+	${3}
+end property
+```
+
 ### [sub] sub
 ```
 sub ${1}(${2})
@@ -94,11 +139,18 @@ sub ${1}(${2})
 end sub
 ```
 
-### [publ] public function
+### [pubs] public sub
 ```
-public function ${1}(${2})
+public sub ${1}(${2})
 	${3}
-end function
+end sub
+```
+
+### [psub] private sub
+```
+private sub ${1}(${2})
+	${3}
+end sub
 ```
 
 ### [func] function
@@ -107,6 +159,21 @@ function ${1}(${2})
 	${3}
 end function
 ```
+
+### [pubf] public function
+```
+public function ${1}(${2})
+	${3}
+end function
+```
+
+### [pfunc] private function
+```
+private function ${1}(${2})
+	${3}
+end function
+```
+
 ## Contributing
 
 1. Fork it!
