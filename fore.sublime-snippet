@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+for each ${1:var} in ${2}
+	${3}
+next
+]]></content>
+  <tabTrigger>fore</tabTrigger>
+  <description>for-each</description>
+  <scope>source.asp, storage.type.asp</scope>
+</snippet>

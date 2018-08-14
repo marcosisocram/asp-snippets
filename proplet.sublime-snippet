@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+public property let ${1}(${2})
+	${3}
+end property
+]]></content>
+  <tabTrigger>proplet</tabTrigger>
+  <description>public property let</description>
+  <scope>source.asp, storage.modifier.asp</scope>
+</snippet>

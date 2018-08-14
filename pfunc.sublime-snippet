@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+private function ${1}(${2})
+	${3}
+end function
+]]></content>
+  <tabTrigger>pfunc</tabTrigger>
+  <description>private function</description>
+  <scope>source.asp, storage.modifier.asp</scope>
+</snippet>
